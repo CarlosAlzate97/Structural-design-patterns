@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge pattern", "Bridge pattern", "{D07E1EB6-9C1B-4A67-95C7-01DD1761B9DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementators", "Implementators", "{9248AE7A-8472-497E-BFC9-6F78086E84A1}"
+	ProjectSection(SolutionItems) = preProject
+		GamePlatform.cs = GamePlatform.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9248AE7A-8472-497E-BFC9-6F78086E84A1} = {D07E1EB6-9C1B-4A67-95C7-01DD1761B9DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {552B8A5B-EE94-4821-A086-BB073F644E51}
+	EndGlobalSection
+EndGlobal
