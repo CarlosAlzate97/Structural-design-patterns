@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge pattern", "Bridge pattern", "{D07E1EB6-9C1B-4A67-95C7-01DD1761B9DD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementators", "Implementators", "{9248AE7A-8472-497E-BFC9-6F78086E84A1}"
-	ProjectSection(SolutionItems) = preProject
-		GamePlatform.cs = GamePlatform.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge Pattern", "Creational patterns\Bridge Pattern.csproj", "{4BE53BE8-C8AF-4574-8109-D133D45EA49D}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE53BE8-C8AF-4574-8109-D133D45EA49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE53BE8-C8AF-4574-8109-D133D45EA49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE53BE8-C8AF-4574-8109-D133D45EA49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE53BE8-C8AF-4574-8109-D133D45EA49D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{9248AE7A-8472-497E-BFC9-6F78086E84A1} = {D07E1EB6-9C1B-4A67-95C7-01DD1761B9DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {552B8A5B-EE94-4821-A086-BB073F644E51}
