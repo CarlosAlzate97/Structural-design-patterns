@@ -9,7 +9,7 @@ namespace Creational_patterns.Abstractions
 {
     public class GenericActionGame : Deployment
     {
-
+        readonly string name = "GenericActionGame";
         public GenericActionGame(IStepsToDeploy deployment) : base(deployment)
         {
 
@@ -24,7 +24,8 @@ namespace Creational_patterns.Abstractions
 
         public override void FinishDeploy()
         {
-            Console.WriteLine("Finish Deploy");
+            Console.WriteLine($"Finish Deploy, {name}");
+
         }
 
 

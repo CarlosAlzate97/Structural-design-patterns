@@ -9,7 +9,7 @@ namespace Creational_patterns.Abstractions
 {
     public class GenericMMMORPGgame : Deployment
     {
-
+        readonly string name = "MMORPG";
         public GenericMMMORPGgame(IStepsToDeploy deployment) : base(deployment)
         {
 
@@ -24,7 +24,7 @@ namespace Creational_patterns.Abstractions
 
         public override void FinishDeploy()
         {
-            Console.WriteLine("Finish Deploy");
+            Console.WriteLine($"Finish Deploy, {name}");
         }
 
 
