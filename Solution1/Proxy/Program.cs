@@ -10,7 +10,6 @@ public static class Client
             Thread.Sleep(1000);
         });
         user1Accesing.Wait();
-
         Task user2Accesing = Task.Run(() => {
             IAccess registry = new RegistryProxy("USER_2");
             registry.Access();
